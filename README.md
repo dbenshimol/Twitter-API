@@ -13,7 +13,7 @@ Tweepy: Twitter for Python
 ###  Installing relevant Libraries
 ```pip install tweepy```
 
-Or use Git to clone the repository from GitHub.
+Or use Git to clone the repository from [GitHub](https://github.com/tweepy/tweepy.git).
 
 ```git clone https://github.com/tweepy/tweepy.git```
 
