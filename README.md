@@ -5,8 +5,8 @@
 [![Python](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue)
 # Analysing Streaming Tweets with Python and PostgreSQL 
 create a small project of analysing streaming Tweets.
-From extracting data from the source and storing it into a PostgreSQL database to processing that data and preparing it for analysis tasks, we will try to understand the workflow of a data engineer’s task.
-And to bring closure to this project, we will analyse this data towards the end and see if we can come up with some valuable insights.
+From extracting data from the source and storing it into a PostgreSQL database to processing that data and preparing it for analysis tasks.
+
 
 Tweepy: Twitter for Python
 ======
@@ -41,4 +41,6 @@ Postgresql is widely used as a back-end database with many dynamic websites and 
 ![name-of-you-image](https://github.com/dbenshimol/Twitter_API/blob/master/Images/PostgreSQL.png)
 
 ### Authenticating the Twitter API
+![](https://img.shields.io/website?url=http%3A%2F%2Fdocs.tweepy.org%2Fen%2Flatest%2Fauth_tutorial.html)
+
 Tweepy supports both OAuth 1a (application-user) and OAuth 2 (application-only) authentication. Authentication is handled by the tweepy.AuthHandler class.
